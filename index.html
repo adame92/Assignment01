@@ -10,8 +10,10 @@
             }
             html, body {
                 height:100%;
+				
             }
             body {
+				background-image: url(./images/gallery/background.jpg);
                 min-height:100%;
                 display:flex;
                 flex-direction:column;
@@ -21,17 +23,18 @@
                 flex:1;
             }
             .main-header {
-                background-color: #CCC;
+                background-color: black;
                 height: 50px;
                 width: 70%;
                 padding: 5px 15%;
+				color: blue;
             }
             .main-header h1 {
                 line-height: 50px;
             }
             .footer {
                 height: 50px;
-                background-color: #CCC;
+                background-color: black;
             }
             span.logo {
                 color: blue;
@@ -49,20 +52,22 @@
                 -moz-box-shadow: inset 0px 0px 50px 0px #ABABAB, 1px 1px 5px 1px #242424;
                 -o-box-shadow: inset 0px 0px 50px 0px #ABABAB, 1px 1px 5px 1px #242424;
             }
+			
             .content-top {
+				background-color: transparent;
                 60%;
                 height: 180px;
-                background-color: #CCC;
                 margin: 10px 0;
             }
 
             .content-bio {
                 position: relative;
-                background-color: #AAA;
+                background-color: black;
                 width: 70%;
                 max-width:980px;
                 height: 180px;
                 margin: 0 auto;
+				color: white;
             }
             .content-bio img {
                 width: 150px;
@@ -81,23 +86,27 @@
                 position: relative;
                 margin: 0 auto;
             }
+			
             .sidebar {
                 float: left;
-                background-color: #f1f1f1;
+                background-color: black;
                 width: 25%;
                 height: 500px;
             }
-
+			
+			 
             .main-content {
-                float: right;
-                background-color: green;
+                color: white;
+				float: right;
+				background-color: transparent;
                 width: 71%;
                 height: 500px;
                 padding: 0 2% 0 2%;
+			
             }
 
             .sidebar-links {
-                background-color: #f1f1f1;
+                background-color: black;
             }
             .sidebar-links li {
                 width: 100%;
@@ -110,6 +119,7 @@
                 padding: 7px;
                 text-decoration: none;
                 transition-duration: 0.7s;
+				color: blue;
             }
             .sidebar-links a:hover {
                 background-color: #CCC;
@@ -129,7 +139,7 @@
 			}
 			.gallery img {
 				width:125px;
-				height:10opx;
+				height:100px;
 			}
         </style>
     </head>
@@ -143,22 +153,23 @@
                 <article class="content-bio">
                     <img src="./images/gallery/myPic.jpg" alt="my pic">
                     <div class="bio-text">
-                        <h1>Armando Adame</h1>
+                        <h1>My Biography</h1>
                         <p>
-                            
+                            I'm Armando Adame and reside in Parlier, CA southeast of Fresno, CA. I was born in Fresno in 1992 and I'm going to be 25 years old this coming March. I'm currently taking 5 classes this semester Spring 2017 and hope to graduate at the end of the semester with a Bachelors in Business Information Systems.
                         </p>
                     </div>
-                </article>
+                </article> 
             </section>
             <section class="content-bottom">
                 <aside class="sidebar">
                     <ul class="sidebar-links">
                         <li><a href="http://www.google.com" target="_blank">Google.com</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
+                        <li><a href="http://www.youtube.com" target="_blank">YouTube.com</a></li>
+						<li><a href="http://www.facebook.com" target="_blank">Facebook.com</a></li>
+						<li><a href="http://www.pandora.com" target="_blank">Pandora.com</a></li>
+						<li><a href="http://www.amazon.com" target="_blank">Amazon.com</a></li>
+						<li><a href="http://www.craigslist.org" target="_blank" >Craigslist.org</a></li>					
+
                     </ul>
                 </aside>
                 <article class="main-content">
